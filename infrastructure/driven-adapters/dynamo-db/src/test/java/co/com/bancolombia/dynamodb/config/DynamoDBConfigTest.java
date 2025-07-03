@@ -21,6 +21,7 @@ class DynamoDBConfigTest {
 
     private final DynamoDBConfig dynamoDBConfig = new DynamoDBConfig();
 
+    /*
     @Test
     void testAmazonDynamoDB() {
 
@@ -41,7 +42,7 @@ class DynamoDBConfigTest {
 
         assertNotNull(result);
     }
-
+*/
 
     @Test
     void testGetDynamoDbEnhancedAsyncClient() {

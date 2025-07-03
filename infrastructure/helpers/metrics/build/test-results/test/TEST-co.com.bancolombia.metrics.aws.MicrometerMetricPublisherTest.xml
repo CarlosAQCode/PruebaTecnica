@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-03T17:59:01.284Z" hostname="DESKTOP-K3BU9BO" time="0.664">
+  <properties/>
+  <testcase name="metricTest()" classname="co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest" time="0.664"/>
+  <system-out><![CDATA[12:59:01.708 [Test worker] INFO io.micrometer.core.instrument.push.PushMeterRegistry -- publishing metrics for LoggingMeterRegistry every 1m
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

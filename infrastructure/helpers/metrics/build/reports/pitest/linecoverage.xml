@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='buildTags(Lsoftware/amazon/awssdk/metrics/MetricCollection;)Ljava/util/List;' number='0'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='buildTags(Lsoftware/amazon/awssdk/metrics/MetricCollection;)Ljava/util/List;' number='2'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='buildTags(Lsoftware/amazon/awssdk/metrics/MetricCollection;)Ljava/util/List;' number='1'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='buildTags(Lsoftware/amazon/awssdk/metrics/MetricCollection;)Ljava/util/List;' number='4'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='buildTags(Lsoftware/amazon/awssdk/metrics/MetricCollection;)Ljava/util/List;' number='3'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='buildTags(Lsoftware/amazon/awssdk/metrics/MetricCollection;)Ljava/util/List;' number='5'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='lambda$publish$2(Lsoftware/amazon/awssdk/metrics/MetricCollection;)V' number='0'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='lambda$publish$2(Lsoftware/amazon/awssdk/metrics/MetricCollection;)V' number='1'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='lambda$publish$2(Lsoftware/amazon/awssdk/metrics/MetricCollection;)V' number='2'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='lambda$publish$2(Lsoftware/amazon/awssdk/metrics/MetricCollection;)V' number='3'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='lambda$publish$2(Lsoftware/amazon/awssdk/metrics/MetricCollection;)V' number='4'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest' method='&lt;init&gt;()V' number='0'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest' method='metricTest()V' number='7'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='close()V' number='0'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest' method='metricTest()V' number='6'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest' method='metricTest()V' number='5'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='publish(Lsoftware/amazon/awssdk/metrics/MetricCollection;)V' number='1'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest' method='metricTest()V' number='4'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='publish(Lsoftware/amazon/awssdk/metrics/MetricCollection;)V' number='0'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest' method='metricTest()V' number='3'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest' method='metricTest()V' number='2'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='&lt;init&gt;(Lio/micrometer/core/instrument/MeterRegistry;)V' number='0'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest' method='metricTest()V' number='1'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='&lt;init&gt;(Lio/micrometer/core/instrument/MeterRegistry;)V' number='1'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest' method='metricTest()V' number='0'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.metrics.aws.MicrometerMetricPublisher' method='&lt;init&gt;(Lio/micrometer/core/instrument/MeterRegistry;)V' number='2'><tests>
+<test name='co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest.[engine:junit-jupiter]/[class:co.com.bancolombia.metrics.aws.MicrometerMetricPublisherTest]/[method:metricTest()]'/>
+</tests>
+</block>
+</coverage>

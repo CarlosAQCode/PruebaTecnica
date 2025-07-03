@@ -23,5 +23,8 @@ management:
 cors:
   allowed-origins: "http://localhost:4200,http://localhost:8080"
 aws:
+  region: us-west-2
+  accessKey: fakeSecretAccessKey
+  keyId: fakeMyKeyId
   dynamodb:
-    endpoint: "http://localhost:8000"
+    endpoint: "http://localhost:8000/"

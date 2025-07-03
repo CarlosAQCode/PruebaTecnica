@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co.com.bancolombia.dynamodb.config.DynamoDBConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-03T17:59:06.746Z" hostname="DESKTOP-K3BU9BO" time="0.386">
+  <properties/>
+  <testcase name="testGetDynamoDbEnhancedAsyncClient()" classname="co.com.bancolombia.dynamodb.config.DynamoDBConfigTest" time="0.386"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

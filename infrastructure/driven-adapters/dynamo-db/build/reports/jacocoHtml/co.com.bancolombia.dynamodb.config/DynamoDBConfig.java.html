@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>DynamoDBConfig.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">dynamo-db</a> &gt; <a href="index.source.html" class="el_package">co.com.bancolombia.dynamodb.config</a> &gt; <span class="el_source">DynamoDBConfig.java</span></div><h1>DynamoDBConfig.java</h1><pre class="source lang-java linenums">package co.com.bancolombia.dynamodb.config;
+
+import java.net.URI;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.core.annotation.Order;
+
+import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
+import software.amazon.awssdk.auth.credentials.StaticCredentialsProvider;
+import software.amazon.awssdk.enhanced.dynamodb.DynamoDbEnhancedAsyncClient;
+import software.amazon.awssdk.regions.Region;
+import software.amazon.awssdk.services.dynamodb.DynamoDbAsyncClient;
+
+@Configuration
+<span class="fc" id="L17">public class DynamoDBConfig {</span>
+
+	@Bean
+	public DynamoDbAsyncClient dynamoDbAsyncClient(@Value(&quot;${aws.region}&quot;) String region,
+			@Value(&quot;${aws.dynamodb.endpoint}&quot;) String endpoint,@Value(&quot;${aws.keyId}&quot;) String keyId,@Value(&quot;${aws.accessKey}&quot;) String AccessKey) {
+<span class="nc" id="L22">		return DynamoDbAsyncClient.builder().endpointOverride(URI.create(endpoint))</span>
+<span class="nc" id="L23">				.region(Region.of(region)).credentialsProvider(StaticCredentialsProvider</span>
+<span class="nc" id="L24">						.create(AwsBasicCredentials.create(keyId, AccessKey)))</span>
+<span class="nc" id="L25">				.build();</span>
+	}
+
+	@Bean
+	@Order(1)
+	public DynamoDbEnhancedAsyncClient getDynamoDbEnhancedAsyncClient(DynamoDbAsyncClient client) {
+<span class="fc" id="L31">		return DynamoDbEnhancedAsyncClient.builder().dynamoDbClient(client).build();</span>
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

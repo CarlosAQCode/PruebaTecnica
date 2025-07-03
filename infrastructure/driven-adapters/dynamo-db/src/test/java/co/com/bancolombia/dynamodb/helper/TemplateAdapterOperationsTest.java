@@ -1,7 +1,10 @@
 package co.com.bancolombia.dynamodb.helper;
 
 import co.com.bancolombia.dynamodb.DynamoDBTemplateAdapter;
-import co.com.bancolombia.dynamodb.ModelEntity;
+import co.com.bancolombia.dynamodb.MotivoContactoEntity;
+import co.com.bancolombia.model.MotivoContactoModel;
+import lombok.extern.slf4j.Slf4j;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -14,87 +17,102 @@ import software.amazon.awssdk.enhanced.dynamodb.Key;
 import software.amazon.awssdk.enhanced.dynamodb.TableSchema;
 
 import software.amazon.awssdk.services.dynamodb.model.AttributeValue;
+
+import java.time.Instant;
+import java.time.format.DateTimeFormatter;
 import java.util.concurrent.CompletableFuture;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;
 
+@Slf4j
 class TemplateAdapterOperationsTest {
 
-    @Mock
-    private DynamoDbEnhancedAsyncClient dynamoDbEnhancedAsyncClient;
+	@Mock
+	private DynamoDbEnhancedAsyncClient dynamoDbEnhancedAsyncClient;
 
-    @Mock
-    private ObjectMapper mapper;
+	@Mock
+	private ObjectMapper mapper;
 
-    @Mock
-    private DynamoDbAsyncTable<ModelEntity> customerTable;
+	@Mock
+	private DynamoDbAsyncTable<MotivoContactoEntity> customerTable;
 
-    private ModelEntity modelEntity;
+	private MotivoContactoEntity modelEntity;
 
-    @BeforeEach
-    void setUp() {
-        MockitoAnnotations.openMocks(this);
+	private MotivoContactoModel modelModel;
 
-        when(dynamoDbEnhancedAsyncClient.table("table_name", TableSchema.fromBean(ModelEntity.class)))
-                .thenReturn(customerTable);
+	@BeforeEach
+	void setUp() {
+		MockitoAnnotations.openMocks(this);
 
-        modelEntity = new ModelEntity();
-        modelEntity.setId("id");
-        modelEntity.setAtr1("atr1");
-    }
+		when(dynamoDbEnhancedAsyncClient.table("MotivosContacto", TableSchema.fromBean(MotivoContactoEntity.class)))
+				.thenReturn(customerTable);
 
-    @Test
-    void modelEntityPropertiesMustNotBeNull() {
-        ModelEntity modelEntityUnderTest = new ModelEntity("id", "atr1");
+		modelEntity = new MotivoContactoEntity();
+		modelEntity.setTimestamp("2025-07-03T10:00:00Z");
+		modelEntity.setTotalContactoClientes(250);
+		modelEntity.setMotivoReclamo(25);
+		modelEntity.setMotivoGarantia(10);
+		modelEntity.setMotivoDuda(100);
+		modelEntity.setMotivoCompra(100);
+		modelEntity.setMotivoFelicitaciones(7);
+		modelEntity.setMotivoCambio(8);
+		modelEntity.setHash("5484062a4be1ce5645eb414663e14f59 ");
 
-        assertNotNull(modelEntityUnderTest.getId());
-        assertNotNull(modelEntityUnderTest.getAtr1());
-    }
+		modelModel = new MotivoContactoModel();
+		modelModel.setTimestamp("2025-07-03T10:00:00Z");
+		modelModel.setTotalContactoClientes(250);
+		modelModel.setMotivoReclamo(25);
+		modelModel.setMotivoGarantia(10);
+		modelModel.setMotivoDuda(100);
+		modelModel.setMotivoCompra(100);
+		modelModel.setMotivoFelicitaciones(7);
+		modelModel.setMotivoCambio(8);
+		modelModel.setHash("5484062a4be1ce5645eb414663e14f59 ");
+	}
 
-    @Test
-    void testSave() {
-        when(customerTable.putItem(modelEntity)).thenReturn(CompletableFuture.runAsync(()->{}));
-        when(mapper.map(modelEntity, ModelEntity.class)).thenReturn(modelEntity);
+	@Test
+	void modelEntityPropertiesMustNotBeNull() {
+		MotivoContactoEntity modelEntityUnderTest = new MotivoContactoEntity("2025-07-03T10:00:00Z", 250, 25, 10, 100,
+				100, 7, 8, "5484062a4be1ce5645eb414663e14f59");
+		assertNotNull(modelEntityUnderTest.getTimestamp());
+		assertNotNull(modelEntityUnderTest.getHash());
+	}
 
-        DynamoDBTemplateAdapter dynamoDBTemplateAdapter =
-                new DynamoDBTemplateAdapter(dynamoDbEnhancedAsyncClient, mapper);
+	@Test
+	void testSave() {
+		when(customerTable.putItem(modelEntity)).thenReturn(CompletableFuture.runAsync(() -> {
+		}));
+		when(mapper.map(modelEntity, MotivoContactoEntity.class)).thenReturn(modelEntity);
 
-        StepVerifier.create(dynamoDBTemplateAdapter.save(modelEntity))
-                .expectNextCount(1)
-                .verifyComplete();
-    }
+		DynamoDBTemplateAdapter dynamoDBTemplateAdapter = new DynamoDBTemplateAdapter(dynamoDbEnhancedAsyncClient,
+				mapper);
 
-    @Test
-    void testGetById() {
-        String id = "id";
+		StepVerifier.create(dynamoDBTemplateAdapter.save(modelEntity)).expectNextCount(1).verifyComplete();
+	}
 
-        when(customerTable.getItem(
-                Key.builder().partitionValue(AttributeValue.builder().s(id).build()).build()))
-                .thenReturn(CompletableFuture.completedFuture(modelEntity));
-        when(mapper.map(modelEntity, Object.class)).thenReturn("value");
+	@Test
+	void testGetById() {
+		String id = "2025-07-03T10:00:00Z";
+		when(customerTable.getItem(Key.builder().partitionValue(AttributeValue.builder().s(id).build()).build()))
+				.thenReturn(CompletableFuture.completedFuture(modelEntity));
+		when(mapper.map(modelEntity, MotivoContactoModel.class)).thenReturn(modelModel);
+		DynamoDBTemplateAdapter dynamoDBTemplateAdapter = new DynamoDBTemplateAdapter(dynamoDbEnhancedAsyncClient,
+				mapper);
+		StepVerifier.create(dynamoDBTemplateAdapter.getById("2025-07-03T10:00:00Z")).expectNext(modelModel)
+				.verifyComplete();
+	}
 
-        DynamoDBTemplateAdapter dynamoDBTemplateAdapter =
-                new DynamoDBTemplateAdapter(dynamoDbEnhancedAsyncClient, mapper);
+	@Test
+	void testDelete() {
+		when(mapper.map(modelEntity, MotivoContactoEntity.class)).thenReturn(modelEntity);
+		when(mapper.map(modelEntity, MotivoContactoModel.class)).thenReturn(modelModel);
 
-        StepVerifier.create(dynamoDBTemplateAdapter.getById("id"))
-                .expectNext("value")
-                .verifyComplete();
-    }
+		when(customerTable.deleteItem(modelEntity)).thenReturn(CompletableFuture.completedFuture(modelEntity));
 
-    @Test
-    void testDelete() {
-        when(mapper.map(modelEntity, ModelEntity.class)).thenReturn(modelEntity);
-        when(mapper.map(modelEntity, Object.class)).thenReturn("value");
+		DynamoDBTemplateAdapter dynamoDBTemplateAdapter = new DynamoDBTemplateAdapter(dynamoDbEnhancedAsyncClient,
+				mapper);
 
-        when(customerTable.deleteItem(modelEntity))
-                .thenReturn(CompletableFuture.completedFuture(modelEntity));
-
-        DynamoDBTemplateAdapter dynamoDBTemplateAdapter =
-                new DynamoDBTemplateAdapter(dynamoDbEnhancedAsyncClient, mapper);
-
-        StepVerifier.create(dynamoDBTemplateAdapter.delete(modelEntity))
-                .expectNext("value")
-                .verifyComplete();
-    }
+		StepVerifier.create(dynamoDBTemplateAdapter.delete(modelEntity)).expectNext(modelModel).verifyComplete();
+	}
 }

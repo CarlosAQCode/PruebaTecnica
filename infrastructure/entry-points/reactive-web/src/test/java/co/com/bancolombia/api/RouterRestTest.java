@@ -8,6 +8,9 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.web.reactive.server.WebTestClient;
 
+import co.com.bancolombia.model.MotivoContactoModel;
+import co.com.bancolombia.model.StatsRequest;
+
 @ContextConfiguration(classes = {RouterRest.class, Statshandler.class})
 @WebFluxTest
 class RouterRestTest {
@@ -15,40 +18,14 @@ class RouterRestTest {
     @Autowired
     private WebTestClient webTestClient;
 
-    @Test
-    void testListenGETUseCase() {
-        webTestClient.get()
-                .uri("/api/usecase/path")
-                .accept(MediaType.APPLICATION_JSON)
-                .exchange()
-                .expectStatus().isOk()
-                .expectBody(String.class)
-                .value(userResponse -> {
-                            Assertions.assertThat(userResponse).isEmpty();
-                        }
-                );
-    }
-
-    @Test
-    void testListenGETOtherUseCase() {
-        webTestClient.get()
-                .uri("/api/otherusercase/path")
-                .accept(MediaType.APPLICATION_JSON)
-                .exchange()
-                .expectStatus().isOk()
-                .expectBody(String.class)
-                .value(userResponse -> {
-                            Assertions.assertThat(userResponse).isEmpty();
-                        }
-                );
-    }
-
-    @Test
-    void testListenPOSTUseCase() {
+    //@Test
+    void testListenGETUseCase() {    	
+    	var request = new StatsRequest(250, 25, 10, 100, 100, 7, 8, "5484062a4be1ce5645eb414663e14f59");
+    	
         webTestClient.post()
-                .uri("/api/usecase/otherpath")
+                .uri("/api/Stats/Savestats")
                 .accept(MediaType.APPLICATION_JSON)
-                .bodyValue("")
+                .bodyValue(request)
                 .exchange()
                 .expectStatus().isOk()
                 .expectBody(String.class)

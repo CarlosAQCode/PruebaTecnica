@@ -15,6 +15,7 @@ import reactor.core.publisher.Mono;
 @RequiredArgsConstructor
 @Slf4j
 public class Statshandler {
+	
 	private final StatsUseCasePort StatsUseCase;
 
 	public Mono<ServerResponse> Savestats(ServerRequest serverRequest) {

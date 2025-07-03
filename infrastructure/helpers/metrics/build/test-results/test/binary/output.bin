@@ -1,0 +1,1 @@
+Ž12:59:01.708 [Test worker] INFO io.micrometer.core.instrument.push.PushMeterRegistry -- publishing metrics for LoggingMeterRegistry every 1m
