@@ -5,5 +5,5 @@ import reactor.core.publisher.Mono;
 
 public interface StatRepository {
 
-	Mono<Stat> saveEntity(Stat stat);
+	Mono<Object> saveEntity(Stat stat);
 }

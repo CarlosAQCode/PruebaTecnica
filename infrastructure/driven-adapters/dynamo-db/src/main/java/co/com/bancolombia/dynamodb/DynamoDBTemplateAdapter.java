@@ -16,20 +16,20 @@ import software.amazon.awssdk.enhanced.dynamodb.model.QueryEnhancedRequest;
 import java.util.List;
 
 @Repository
-public class DynamoDBTemplateAdapter extends TemplateAdapterOperations<Stat, String, MotivoContactoEntity>
+public class DynamoDBTemplateAdapter extends TemplateAdapterOperations<Object, String, MotivoContactoEntity>
 		implements StatRepository {
 
 	public DynamoDBTemplateAdapter(DynamoDbEnhancedAsyncClient connectionFactory, ObjectMapper mapper) {
 
-		super(connectionFactory, mapper, d -> mapper.map(d, Stat.class), "MotivosContacto");
+		super(connectionFactory, mapper, d -> mapper.map(d, Object.class), "MotivosContacto");
 	}
 
-	public Mono<List<Stat>> getEntityBySomeKeys(String partitionKey, String sortKey) {
+	public Mono<List<Object>> getEntityBySomeKeys(String partitionKey, String sortKey) {
 		QueryEnhancedRequest queryExpression = generateQueryExpression(partitionKey, sortKey);
 		return query(queryExpression);
 	}
 
-	public Mono<List<Stat>> getEntityBySomeKeysByIndex(String partitionKey, String sortKey) {
+	public Mono<List<Object>> getEntityBySomeKeysByIndex(String partitionKey, String sortKey) {
 		QueryEnhancedRequest queryExpression = generateQueryExpression(partitionKey, sortKey);
 		return queryByIndex(queryExpression);
 	}
@@ -42,7 +42,7 @@ public class DynamoDBTemplateAdapter extends TemplateAdapterOperations<Stat, Str
 	}
 
 	@Override
-	public Mono<Stat> saveEntity(Stat stat) {		
+	public Mono<Object> saveEntity(Stat stat) {		
 		return this.save(stat);
 	}
 }

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="co.com.bancolombia.config.ObjectMapperConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-07-04T16:06:44.301Z" hostname="DESKTOP-K3BU9BO" time="0.448">
-  <properties/>
-  <testcase name="testObjectMapperBean()" classname="co.com.bancolombia.config.ObjectMapperConfigTest" time="0.448"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

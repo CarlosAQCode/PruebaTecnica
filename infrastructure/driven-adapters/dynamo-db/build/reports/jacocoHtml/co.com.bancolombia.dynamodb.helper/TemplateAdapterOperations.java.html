@@ -18,80 +18,99 @@ import java.util.List;
 import java.util.function.Function;
 
 public abstract class TemplateAdapterOperations&lt;E, K, V&gt; {
-    private final Class&lt;V&gt; dataClass;
-    private final Function&lt;V, E&gt; toEntityFn;
-    protected ObjectMapper mapper;
-    private final DynamoDbAsyncTable&lt;V&gt; table;
-    private final DynamoDbAsyncIndex&lt;V&gt; tableByIndex;
+	private final Class&lt;V&gt; dataClass;
+	private final Function&lt;V, E&gt; toEntityFn;
+	protected ObjectMapper mapper;
+	private DynamoDbAsyncTable&lt;V&gt; table;
+	private final DynamoDbAsyncIndex&lt;V&gt; tableByIndex;
 
-    @SuppressWarnings(&quot;unchecked&quot;)
-    protected TemplateAdapterOperations(DynamoDbEnhancedAsyncClient dynamoDbEnhancedAsyncClient,
-                                        ObjectMapper mapper,
-                                        Function&lt;V, E&gt; toEntityFn,
-                                        String tableName,
-<span class="fc" id="L32">                                        String... index) {</span>
-<span class="fc" id="L33">        this.toEntityFn = toEntityFn;</span>
-<span class="fc" id="L34">        this.mapper = mapper;</span>
-<span class="fc" id="L35">        ParameterizedType genericSuperclass = (ParameterizedType) this.getClass().getGenericSuperclass();</span>
-<span class="fc" id="L36">        this.dataClass = (Class&lt;V&gt;) genericSuperclass.getActualTypeArguments()[2];</span>
-<span class="fc" id="L37">        table = dynamoDbEnhancedAsyncClient.table(tableName, TableSchema.fromBean(dataClass));</span>
-<span class="pc bpc" id="L38" title="1 of 2 branches missed.">        tableByIndex = index.length &gt; 0 ? table.index(index[0]) : null;</span>
-<span class="fc" id="L39">    }</span>
+	private final DynamoDbEnhancedAsyncClient dynamoDbEnhancedAsyncClientF;
+	private final String tableNameF;
 
-    public Mono&lt;E&gt; save(E model) {
-<span class="fc" id="L42">        return Mono.fromFuture(table.putItem(toEntity(model))).thenReturn(model);</span>
-    }
+	@SuppressWarnings(&quot;unchecked&quot;)
+	protected TemplateAdapterOperations(DynamoDbEnhancedAsyncClient dynamoDbEnhancedAsyncClient, ObjectMapper mapper,
+<span class="fc" id="L32">			Function&lt;V, E&gt; toEntityFn, String tableName, String... index) {</span>
+<span class="fc" id="L33">		this.dynamoDbEnhancedAsyncClientF = dynamoDbEnhancedAsyncClient;</span>
+<span class="fc" id="L34">		this.tableNameF = tableName;</span>
+<span class="fc" id="L35">		this.toEntityFn = toEntityFn;</span>
+<span class="fc" id="L36">		this.mapper = mapper;</span>
+<span class="fc" id="L37">		ParameterizedType genericSuperclass = (ParameterizedType) this.getClass().getGenericSuperclass();</span>
+<span class="fc" id="L38">		this.dataClass = (Class&lt;V&gt;) genericSuperclass.getActualTypeArguments()[2];</span>
+<span class="fc" id="L39">		table = dynamoDbEnhancedAsyncClient.table(tableName, TableSchema.fromBean(dataClass));</span>
+<span class="pc bpc" id="L40" title="1 of 2 branches missed.">		tableByIndex = index.length &gt; 0 ? table.index(index[0]) : null;</span>
+<span class="fc" id="L41">	}</span>
 
-    public Mono&lt;E&gt; getById(K id) {
-<span class="fc" id="L46">        return Mono.fromFuture(table.getItem(Key.builder()</span>
-<span class="fc" id="L47">                        .partitionValue(AttributeValue.builder().s((String) id).build())</span>
-<span class="fc" id="L48">                        .build()))</span>
-<span class="fc" id="L49">                .map(this::toModel);</span>
-    }
+	public Mono&lt;E&gt; save(E model) {
+<span class="nc bnc" id="L44" title="All 2 branches missed.">		if (table == null) {</span>
+<span class="nc" id="L45">			table = dynamoDbEnhancedAsyncClientF.table(tableNameF, TableSchema.fromBean(dataClass));</span>
+		}
+<span class="nc" id="L47">		return Mono.fromFuture(table.putItem(toEntity(model))).thenReturn(model);</span>
+	}
 
-    public Mono&lt;E&gt; delete(E model) {
-<span class="fc" id="L53">        return Mono.fromFuture(table.deleteItem(toEntity(model))).map(this::toModel);</span>
-    }
+	public Mono&lt;E&gt; getById(K id) {
+<span class="nc bnc" id="L51" title="All 2 branches missed.">		if (table == null) {</span>
+<span class="nc" id="L52">			table = dynamoDbEnhancedAsyncClientF.table(tableNameF, TableSchema.fromBean(dataClass));</span>
+		}
+<span class="nc" id="L54">		return Mono</span>
+<span class="nc" id="L55">				.fromFuture(table</span>
+<span class="nc" id="L56">						.getItem(Key.builder().partitionValue(AttributeValue.builder().s((String) id).build()).build()))</span>
+<span class="nc" id="L57">				.map(this::toModel);</span>
+	}
 
-    public Mono&lt;List&lt;E&gt;&gt; query(QueryEnhancedRequest queryExpression) {
-<span class="nc" id="L57">        PagePublisher&lt;V&gt; pagePublisher = table.query(queryExpression);</span>
-<span class="nc" id="L58">        return listOfModel(pagePublisher);</span>
-    }
+	public Mono&lt;E&gt; delete(E model) {
+<span class="nc bnc" id="L61" title="All 2 branches missed.">		if (table == null) {</span>
+<span class="nc" id="L62">			table = dynamoDbEnhancedAsyncClientF.table(tableNameF, TableSchema.fromBean(dataClass));</span>
+		}
+<span class="nc" id="L64">		return Mono.fromFuture(table.deleteItem(toEntity(model))).map(this::toModel);</span>
+	}
 
-    public Mono&lt;List&lt;E&gt;&gt; queryByIndex(QueryEnhancedRequest queryExpression, String... index) {
-<span class="nc bnc" id="L62" title="All 2 branches missed.">        DynamoDbAsyncIndex&lt;V&gt; queryIndex = index.length &gt; 0 ? table.index(index[0]) : tableByIndex;</span>
+	public Mono&lt;List&lt;E&gt;&gt; query(QueryEnhancedRequest queryExpression) {
+<span class="nc bnc" id="L68" title="All 2 branches missed.">		if (table == null) {</span>
+<span class="nc" id="L69">			table = dynamoDbEnhancedAsyncClientF.table(tableNameF, TableSchema.fromBean(dataClass));</span>
+		}
+<span class="nc" id="L71">		PagePublisher&lt;V&gt; pagePublisher = table.query(queryExpression);</span>
+<span class="nc" id="L72">		return listOfModel(pagePublisher);</span>
+	}
 
-<span class="nc" id="L64">        SdkPublisher&lt;Page&lt;V&gt;&gt; pagePublisher = queryIndex.query(queryExpression);</span>
-<span class="nc" id="L65">        return listOfModel(pagePublisher);</span>
-    }
+	public Mono&lt;List&lt;E&gt;&gt; queryByIndex(QueryEnhancedRequest queryExpression, String... index) {
+<span class="nc bnc" id="L76" title="All 2 branches missed.">		if (table == null) {</span>
+<span class="nc" id="L77">			table = dynamoDbEnhancedAsyncClientF.table(tableNameF, TableSchema.fromBean(dataClass));</span>
+		}
+<span class="nc bnc" id="L79" title="All 2 branches missed.">		DynamoDbAsyncIndex&lt;V&gt; queryIndex = index.length &gt; 0 ? table.index(index[0]) : tableByIndex;</span>
 
-    /**
-     * @return Mono&lt;List &lt; E&gt;&gt;
-     * @implNote Bancolombia does not suggest the Scan function for DynamoDB tables due to the low performance resulting
-     * from the design of the database engine (Key value). Optimize the query using Query, GetItem or BatchGetItem
-     * functions, and if necessary, consider the Single-Table Design pattern for DynamoDB.
-     * @deprecated
-     */
-    @Deprecated(forRemoval = true)
-    public Mono&lt;List&lt;E&gt;&gt; scan() {
-<span class="nc" id="L77">        PagePublisher&lt;V&gt; pagePublisher = table.scan();</span>
-<span class="nc" id="L78">        return listOfModel(pagePublisher);</span>
-    }
+<span class="nc" id="L81">		SdkPublisher&lt;Page&lt;V&gt;&gt; pagePublisher = queryIndex.query(queryExpression);</span>
+<span class="nc" id="L82">		return listOfModel(pagePublisher);</span>
+	}
 
-    private Mono&lt;List&lt;E&gt;&gt; listOfModel(PagePublisher&lt;V&gt; pagePublisher) {
-<span class="nc" id="L82">        return Mono.from(pagePublisher).map(page -&gt; page.items().stream().map(this::toModel).toList());</span>
-    }
+	/**
+	 * @return Mono&lt;List &lt; E&gt;&gt;
+	 * @implNote Bancolombia does not suggest the Scan function for DynamoDB tables
+	 *           due to the low performance resulting from the design of the
+	 *           database engine (Key value). Optimize the query using Query,
+	 *           GetItem or BatchGetItem functions, and if necessary, consider the
+	 *           Single-Table Design pattern for DynamoDB.
+	 * @deprecated
+	 */
+	@Deprecated(forRemoval = true)
+	public Mono&lt;List&lt;E&gt;&gt; scan() {
+<span class="nc" id="L96">		PagePublisher&lt;V&gt; pagePublisher = table.scan();</span>
+<span class="nc" id="L97">		return listOfModel(pagePublisher);</span>
+	}
 
-    private Mono&lt;List&lt;E&gt;&gt; listOfModel(SdkPublisher&lt;Page&lt;V&gt;&gt; pagePublisher) {
-<span class="nc" id="L86">        return Mono.from(pagePublisher).map(page -&gt; page.items().stream().map(this::toModel).toList());</span>
-    }
+	private Mono&lt;List&lt;E&gt;&gt; listOfModel(PagePublisher&lt;V&gt; pagePublisher) {
+<span class="nc" id="L101">		return Mono.from(pagePublisher).map(page -&gt; page.items().stream().map(this::toModel).toList());</span>
+	}
 
-    protected V toEntity(E model) {
-<span class="fc" id="L90">        return mapper.map(model, dataClass);</span>
-    }
+	private Mono&lt;List&lt;E&gt;&gt; listOfModel(SdkPublisher&lt;Page&lt;V&gt;&gt; pagePublisher) {
+<span class="nc" id="L105">		return Mono.from(pagePublisher).map(page -&gt; page.items().stream().map(this::toModel).toList());</span>
+	}
 
-    protected E toModel(V data) {
-<span class="pc bpc" id="L94" title="1 of 2 branches missed.">        return data != null ? toEntityFn.apply(data) : null;</span>
-    }
+	protected V toEntity(E model) {
+<span class="nc" id="L109">		return mapper.map(model, dataClass);</span>
+	}
+
+	protected E toModel(V data) {
+<span class="nc bnc" id="L113" title="All 2 branches missed.">		return data != null ? toEntityFn.apply(data) : null;</span>
+	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

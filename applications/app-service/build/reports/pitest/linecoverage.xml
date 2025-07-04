@@ -471,8 +471,9 @@
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
 </tests>
 </block>
@@ -503,6 +504,34 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:useCaseFinalFields()]'/>
 </tests>
 </block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='getLocations()Ljava/util/List;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='4'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='5'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='lambda$domainClassesShouldNotHaveFieldsNamedWithToolNames$8(Lcom/tngtech/archunit/lang/syntax/elements/MembersShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/MembersShouldConjunction;' number='2'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 </tests>
@@ -523,6 +552,10 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 </tests>
 </block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='8'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 </tests>
@@ -535,7 +568,15 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 </tests>
 </block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='4'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 </tests>
 </block>
@@ -543,7 +584,23 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 </tests>
 </block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='domainClassesShouldNotHaveFieldsNamedWithToolNames()V' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='7'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='8'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 </tests>
 </block>
@@ -551,11 +608,231 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$domainClassesShouldNotHaveFieldsNamedWithToolNames$10(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='5'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='6'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='lambda$domainClassesShouldNotHaveFieldsNamedWithToolNames$10(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='14'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='from(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule$Location;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='from(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule$Location;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='7'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='8'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='5'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='6'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='getClassName()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='7'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='6'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='9'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='8'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='with(Lco/com/bancolombia/Utils$ArchitectureRule$Location;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='11'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='with(Lco/com/bancolombia/Utils$ArchitectureRule$Location;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='10'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='11'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='12'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='6'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='9'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='5'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='10'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='15'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='13'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='14'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='from(Ljava/lang/String;Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='from(Ljava/lang/String;Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='4'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='2'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 </tests>
 </block>
@@ -595,89 +872,12 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:useCaseFinalFields()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='0'><tests>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='1'><tests>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='getLocations()Ljava/util/List;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='5'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='7'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='8'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='5'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='6'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='15'><tests>
@@ -692,18 +892,8 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='12'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='11'><tests>
@@ -726,47 +916,12 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='17'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='16'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='14'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='from(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule$Location;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='from(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule$Location;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='7'><tests>
@@ -799,222 +954,6 @@
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='0'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='7'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='8'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='5'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='6'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='getClassName()Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='7'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='6'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='9'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='8'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='with(Lco/com/bancolombia/Utils$ArchitectureRule$Location;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='11'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='with(Lco/com/bancolombia/Utils$ArchitectureRule$Location;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='10'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='11'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='12'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='6'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='9'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='5'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='10'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='15'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='13'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='14'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='from(Ljava/lang/String;Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='from(Ljava/lang/String;Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest$3' method='&lt;init&gt;(Lco/com/bancolombia/ArchitectureTest;Ljava/lang/String;[Ljava/lang/Object;Lco/com/bancolombia/ArchitectureTest$CheckCondition;)V' number='1'><tests>
@@ -1189,6 +1128,10 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$4(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$2(Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;' number='0'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
@@ -1198,22 +1141,6 @@
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$2(Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;Ljava/lang/String;)Lcom/tngtech/archunit/lang/syntax/elements/ClassesShouldConjunction;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='5'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
@@ -1251,746 +1178,6 @@
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='domainClassesShouldNotBeNamedWithTechSuffixes()V' number='0'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='5'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='4'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='3'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='2'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='exportIssues()V' number='2'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig' method='objectMapper()Lorg/reactivecommons/utils/ObjectMapper;' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='exportIssues()V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='exportIssues()V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$objectMapper$0()Lorg/reactivecommons/utils/ObjectMapper;' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig' method='objectMapper()Lorg/reactivecommons/utils/ObjectMapper;' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$objectMapper$0()Lorg/reactivecommons/utils/ObjectMapper;' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='exportIssues()V' number='6'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='25'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='exportIssues()V' number='3'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='26'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK2()V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='24'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='11'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='12'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='6'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='2'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$IssuesReport' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$IssuesReport' method='&lt;init&gt;()V' number='2'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$IssuesReport' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='5'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='3'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='2'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='&lt;init&gt;()V' number='2'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='&lt;init&gt;(Ljava/lang/Class;)V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='&lt;init&gt;(Ljava/lang/Class;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='5'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$IssuesReport' method='getIssues()Ljava/util/concurrent/ConcurrentLinkedQueue;' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='4'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='3'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='2'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='3'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='9'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='8'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='10'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='5'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='4'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='7'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$SET_STATIC_CALLBACKS([Lorg/springframework/cglib/proxy/Callback;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK1()V' number='6'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfigTest' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$0' method='&lt;init&gt;(Ljava/lang/Class;)V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='&lt;clinit&gt;()V' number='2'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$0' method='&lt;init&gt;(Ljava/lang/Class;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfigTest' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='&lt;clinit&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='&lt;clinit&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfigTest' method='testObjectMapperBean()V' number='5'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='objectMapper()Lorg/reactivecommons/utils/ObjectMapper;' number='5'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$exportIssues$0(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/lang/String;)V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='objectMapper()Lorg/reactivecommons/utils/ObjectMapper;' number='3'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$exportIssues$0(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/lang/String;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='objectMapper()Lorg/reactivecommons/utils/ObjectMapper;' number='4'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$exportIssues$0(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/lang/String;)V' number='8'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfigTest' method='testObjectMapperBean()V' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$exportIssues$0(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/lang/String;)V' number='3'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfigTest' method='testObjectMapperBean()V' number='1'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$exportIssues$0(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/lang/String;)V' number='2'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfigTest' method='testObjectMapperBean()V' number='2'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$exportIssues$0(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/lang/String;)V' number='5'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfigTest' method='testObjectMapperBean()V' number='3'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$exportIssues$0(Lcom/fasterxml/jackson/databind/ObjectMapper;Ljava/lang/String;)V' number='4'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfigTest' method='testObjectMapperBean()V' number='4'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$0' method='objectMapper()Lorg/reactivecommons/utils/ObjectMapper;' number='0'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='4'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='5'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='3'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='6'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='7'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='3'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='&lt;init&gt;()V' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='8'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='6'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='9'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK3()V' number='10'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='5'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig' method='myUseCase()Lco/com/bancolombia/config/UseCasesConfigTest$MyUseCase;' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig' method='myUseCase()Lco/com/bancolombia/config/UseCasesConfigTest$MyUseCase;' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='5'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='3'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='6'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$BIND_CALLBACKS(Ljava/lang/Object;)V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$MyUseCase' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$MyUseCase' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK4()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$0' method='&lt;init&gt;(Ljava/lang/Class;)V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$0' method='&lt;init&gt;(Ljava/lang/Class;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='3'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='5'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$0' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='4'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.usecase.stats.StatsUseCase' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK5()V' number='4'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.usecase.stats.StatsUseCase' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK5()V' number='5'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK5()V' number='6'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='&lt;clinit&gt;()V' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='&lt;clinit&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='&lt;clinit&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='&lt;clinit&gt;()V' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='&lt;clinit&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='&lt;clinit&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$SET_STATIC_CALLBACKS([Lorg/springframework/cglib/proxy/Callback;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='3'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='4'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='5'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='3'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK5()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK5()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK5()V' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK5()V' number='3'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$SET_STATIC_CALLBACKS([Lorg/springframework/cglib/proxy/Callback;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='myUseCase()Lco/com/bancolombia/config/UseCasesConfigTest$MyUseCase;' number='5'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='myUseCase()Lco/com/bancolombia/config/UseCasesConfigTest$MyUseCase;' number='4'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='myUseCase()Lco/com/bancolombia/config/UseCasesConfigTest$MyUseCase;' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='myUseCase()Lco/com/bancolombia/config/UseCasesConfigTest$MyUseCase;' number='3'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='4'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='setBeanFactory(Lorg/springframework/beans/factory/BeanFactory;)V' number='5'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='6'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='5'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='8'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='9'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='6'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='7'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='4'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='5'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='3'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='15'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfig$$SpringCGLIB$$0' method='CGLIB$STATICHOOK6()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='10'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest' method='testUseCaseBeansExist()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$myUseCase$0()Lco/com/bancolombia/config/UseCasesConfigTest$MyUseCase;' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='CGLIB$myUseCase$0()Lco/com/bancolombia/config/UseCasesConfigTest$MyUseCase;' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='&lt;init&gt;(Ljava/lang/Class;)V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='&lt;init&gt;(Ljava/lang/Class;)V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='11'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='9'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$0' method='&lt;init&gt;()V' number='2'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='getIndex(Lorg/springframework/cglib/core/Signature;)I' number='10'><tests>
-<test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
 </tests>
 </block>
 </coverage>

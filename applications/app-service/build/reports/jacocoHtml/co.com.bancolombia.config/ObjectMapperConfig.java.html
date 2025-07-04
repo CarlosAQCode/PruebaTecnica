@@ -5,13 +5,17 @@ import org.reactivecommons.utils.ObjectMapperImp;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import lombok.extern.slf4j.Slf4j;
+
 @Configuration
-<span class="fc" id="L9">public class ObjectMapperConfig {</span>
+<span class="nc" id="L11">@Slf4j</span>
+<span class="nc" id="L12">public class ObjectMapperConfig {</span>
 
     @Bean
     public ObjectMapper objectMapper() {
-<span class="fc" id="L13">        return new ObjectMapperImp();</span>
+<span class="nc" id="L16">        return new ObjectMapperImp();</span>
     }
+
 
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.13.202504020838</span></div></body></html>

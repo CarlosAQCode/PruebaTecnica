@@ -48,14 +48,77 @@
 <test name='co.com.bancolombia.dynamodb.config.DynamoDBConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.config.DynamoDBConfigTest]/[method:testGetDynamoDbEnhancedAsyncClient()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='setTimestamp(Ljava/lang/String;)V' number='0'><tests>
+<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='10'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='setTimestamp(Ljava/lang/String;)V' number='0'><tests>
+<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='9'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='4'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='3'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='6'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='5'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='2'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.stat.Stat' method='setTimestamp(Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='1'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='setTimestamp(Ljava/lang/String;)V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
@@ -80,19 +143,11 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='modelEntityPropertiesMustNotBeNull()V' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='setUp()V' number='4'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='modelEntityPropertiesMustNotBeNull()V' number='2'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='&lt;init&gt;()V' number='0'><tests>
@@ -109,19 +164,11 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='modelEntityPropertiesMustNotBeNull()V' number='3'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='setUp()V' number='2'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='modelEntityPropertiesMustNotBeNull()V' number='4'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='setMotivoGarantia(I)V' number='0'><tests>
@@ -136,10 +183,6 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='modelEntityPropertiesMustNotBeNull()V' number='5'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='setUp()V' number='8'><tests>
@@ -177,6 +220,27 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
+<block classname='co.com.bancolombia.model.stat.Stat' method='setMotivoCambio(I)V' number='0'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.stat.Stat' method='&lt;init&gt;()V' number='1'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.stat.Stat' method='setMotivoDuda(I)V' number='0'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
 <block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='setMotivoCambio(I)V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
@@ -191,7 +255,21 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
+<block classname='co.com.bancolombia.model.stat.Stat' method='setMotivoGarantia(I)V' number='0'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='setUp()V' number='1'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.model.stat.Stat' method='&lt;init&gt;()V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
@@ -290,13 +368,6 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='setMotivoCompra(I)V' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='setUp()V' number='11'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
@@ -339,6 +410,13 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
+<block classname='co.com.bancolombia.model.stat.Stat' method='setHash(Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
+<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
+</tests>
+</block>
 <block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='setMotivoReclamo(I)V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
@@ -346,69 +424,39 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='setMotivoReclamo(I)V' number='0'><tests>
+<block classname='co.com.bancolombia.dynamodb.DynamoDBTemplateAdapter' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;)V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='setHash(Ljava/lang/String;)V' number='0'><tests>
+<block classname='co.com.bancolombia.dynamodb.DynamoDBTemplateAdapter' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;)V' number='1'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='getHash()Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='setMotivoFelicitaciones(I)V' number='0'><tests>
+<block classname='co.com.bancolombia.model.stat.Stat' method='setTotalContactoClientes(I)V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='getTimestamp()Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='setTotalContactoClientes(I)V' number='0'><tests>
+<block classname='co.com.bancolombia.model.stat.Stat' method='setMotivoReclamo(I)V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='setMotivoGarantia(I)V' number='0'><tests>
+<block classname='co.com.bancolombia.model.stat.Stat' method='setMotivoFelicitaciones(I)V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='&lt;init&gt;()V' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='&lt;init&gt;()V' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='&lt;init&gt;(Ljava/lang/String;IIIIIIILjava/lang/String;)V' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='&lt;init&gt;(Ljava/lang/String;IIIIIIILjava/lang/String;)V' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='setMotivoFelicitaciones(I)V' number='0'><tests>
@@ -418,7 +466,7 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='setMotivoDuda(I)V' number='0'><tests>
+<block classname='co.com.bancolombia.model.stat.Stat' method='setMotivoCompra(I)V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
@@ -434,67 +482,6 @@
 </block>
 <block classname='co.com.bancolombia.dynamodb.MotivoContactoEntity' method='setHash(Ljava/lang/String;)V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='setMotivoCambio(I)V' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:modelEntityPropertiesMustNotBeNull()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='10'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='9'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='4'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='3'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='6'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='5'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='2'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;Ljava/util/function/Function;Ljava/lang/String;[Ljava/lang/String;)V' number='1'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
@@ -532,173 +519,11 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.dynamodb.DynamoDBTemplateAdapter' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;)V' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.DynamoDBTemplateAdapter' method='&lt;init&gt;(Lsoftware/amazon/awssdk/enhanced/dynamodb/DynamoDbEnhancedAsyncClient;Lorg/reactivecommons/utils/ObjectMapper;)V' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testSave()V' number='10'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testSave()V' number='11'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testSave()V' number='8'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='lambda$testSave$0()V' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testSave()V' number='9'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testSave()V' number='12'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='4'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='toEntity(Ljava/lang/Object;)Ljava/lang/Object;' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='3'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='toEntity(Ljava/lang/Object;)Ljava/lang/Object;' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='save(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='2'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testSave()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='toString()Ljava/lang/String;' number='2'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='toString()Ljava/lang/String;' number='3'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='toString()Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='toString()Ljava/lang/String;' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='toString()Ljava/lang/String;' number='8'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='toString()Ljava/lang/String;' number='9'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='toString()Ljava/lang/String;' number='6'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='toString()Ljava/lang/String;' number='7'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='toString()Ljava/lang/String;' number='4'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='toString()Ljava/lang/String;' number='5'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='getTotalContactoClientes()I' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='getMotivoCambio()I' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='getById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='getById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='2'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='getById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='3'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='getById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='4'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='getById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='5'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='getById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='6'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='getById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='7'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='getById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='8'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='getById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='9'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testGetById()V' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='getById(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='0'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 </tests>
 </block>
@@ -750,113 +575,12 @@
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testGetById()V' number='15'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testGetById()V' number='16'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testGetById()V' number='13'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testGetById()V' number='14'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testGetById()V' number='17'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testGetById()V' number='18'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='getMotivoCompra()I' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.DynamoDBTemplateAdapter' method='lambda$new$0(Lorg/reactivecommons/utils/ObjectMapper;Lco/com/bancolombia/dynamodb/MotivoContactoEntity;)Ljava/lang/Object;' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.DynamoDBTemplateAdapter' method='lambda$new$0(Lorg/reactivecommons/utils/ObjectMapper;Lco/com/bancolombia/dynamodb/MotivoContactoEntity;)Ljava/lang/Object;' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='toModel(Ljava/lang/Object;)Ljava/lang/Object;' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='toModel(Ljava/lang/Object;)Ljava/lang/Object;' number='2'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='toModel(Ljava/lang/Object;)Ljava/lang/Object;' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='getMotivoGarantia()I' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='getMotivoFelicitaciones()I' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='getHash()Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='toModel(Ljava/lang/Object;)Ljava/lang/Object;' number='4'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='getMotivoDuda()I' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='getTimestamp()Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.model.MotivoContactoModel' method='getMotivoReclamo()I' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testGetById()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='delete(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='4'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='delete(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='2'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='delete(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='3'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='delete(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='0'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations' method='delete(Ljava/lang/Object;)Lreactor/core/publisher/Mono;' number='1'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testDelete()V' number='3'><tests>
@@ -904,22 +628,6 @@
 </tests>
 </block>
 <block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testDelete()V' number='10'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testDelete()V' number='13'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testDelete()V' number='12'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testDelete()V' number='15'><tests>
-<test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest' method='testDelete()V' number='14'><tests>
 <test name='co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest.[engine:junit-jupiter]/[class:co.com.bancolombia.dynamodb.helper.TemplateAdapterOperationsTest]/[method:testDelete()]'/>
 </tests>
 </block>
