@@ -1,9 +1,11 @@
 server:
   port: 8080
-spring:
+spring:  
   application:
     name: "PruebaTecnica"
   devtools:
+    restart:
+      enabled: false	
     add-properties: false
   h2:
     console:

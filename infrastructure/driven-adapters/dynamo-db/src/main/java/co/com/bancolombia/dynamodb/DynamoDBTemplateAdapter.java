@@ -1,7 +1,9 @@
 package co.com.bancolombia.dynamodb;
 
 import co.com.bancolombia.dynamodb.helper.TemplateAdapterOperations;
-import co.com.bancolombia.model.MotivoContactoModel;
+
+import co.com.bancolombia.model.stat.Stat;
+import co.com.bancolombia.model.stat.gateways.StatRepository;
 
 import org.reactivecommons.utils.ObjectMapper;
 import org.springframework.stereotype.Repository;
@@ -14,19 +16,20 @@ import software.amazon.awssdk.enhanced.dynamodb.model.QueryEnhancedRequest;
 import java.util.List;
 
 @Repository
-public class DynamoDBTemplateAdapter extends TemplateAdapterOperations<Object, String, MotivoContactoEntity> {
+public class DynamoDBTemplateAdapter extends TemplateAdapterOperations<Stat, String, MotivoContactoEntity>
+		implements StatRepository {
 
 	public DynamoDBTemplateAdapter(DynamoDbEnhancedAsyncClient connectionFactory, ObjectMapper mapper) {
 
-		super(connectionFactory, mapper, d -> mapper.map(d, MotivoContactoModel.class), "MotivosContacto");
+		super(connectionFactory, mapper, d -> mapper.map(d, Stat.class), "MotivosContacto");
 	}
 
-	public Mono<List<Object>> getEntityBySomeKeys(String partitionKey, String sortKey) {
+	public Mono<List<Stat>> getEntityBySomeKeys(String partitionKey, String sortKey) {
 		QueryEnhancedRequest queryExpression = generateQueryExpression(partitionKey, sortKey);
 		return query(queryExpression);
 	}
 
-	public Mono<List<Object>> getEntityBySomeKeysByIndex(String partitionKey, String sortKey) {
+	public Mono<List<Stat>> getEntityBySomeKeysByIndex(String partitionKey, String sortKey) {
 		QueryEnhancedRequest queryExpression = generateQueryExpression(partitionKey, sortKey);
 		return queryByIndex(queryExpression);
 	}
@@ -36,5 +39,10 @@ public class DynamoDBTemplateAdapter extends TemplateAdapterOperations<Object, S
 				.queryConditional(QueryConditional.keyEqualTo(Key.builder().partitionValue(partitionKey).build()))
 				.queryConditional(QueryConditional.sortGreaterThanOrEqualTo(Key.builder().sortValue(sortKey).build()))
 				.build();
+	}
+
+	@Override
+	public Mono<Stat> saveEntity(Stat stat) {		
+		return this.save(stat);
 	}
 }

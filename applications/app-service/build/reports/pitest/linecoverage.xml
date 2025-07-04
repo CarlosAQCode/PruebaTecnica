@@ -471,7 +471,6 @@
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithToolNames()]'/>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotHaveFieldsNamedWithToolNames()]'/>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
@@ -596,12 +595,89 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:useCaseFinalFields()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='0'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='1'><tests>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='1'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='getLocations()Ljava/util/List;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='4'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='5'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='4'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='7'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='8'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='5'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='6'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='15'><tests>
@@ -616,8 +692,18 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='12'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='11'><tests>
@@ -640,12 +726,47 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='17'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='16'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='14'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='from(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule$Location;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='from(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule$Location;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='7'><tests>
@@ -678,6 +799,222 @@
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='beansShouldOnlyHaveFinalFields()V' number='0'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='7'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='8'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='5'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='6'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='getClassName()Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$beansShouldOnlyHaveFinalFields$11(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='7'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='6'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='9'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='8'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='with(Lco/com/bancolombia/Utils$ArchitectureRule$Location;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='11'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='with(Lco/com/bancolombia/Utils$ArchitectureRule$Location;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='10'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='11'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='12'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='6'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='9'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='5'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='10'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='15'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='13'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='14'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='from(Ljava/lang/String;Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='from(Ljava/lang/String;Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='4'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='3'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='2'><tests>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:beansShouldOnlyHaveFinalFields()]'/>
+<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.ArchitectureTest$3' method='&lt;init&gt;(Lco/com/bancolombia/ArchitectureTest;Ljava/lang/String;[Ljava/lang/Object;Lco/com/bancolombia/ArchitectureTest$CheckCondition;)V' number='1'><tests>
@@ -848,75 +1185,7 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:reactiveFlowsShouldUseAwsAsyncClients()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='getLocations()Ljava/util/List;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocation(Ljava/lang/String;)I' number='5'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='7'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='8'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='5'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='6'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.ArchitectureTest' method='lambda$domainClassesShouldNotBeNamedWithTechSuffixes$4(Lcom/tngtech/archunit/lang/ArchRule;)V' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
@@ -932,102 +1201,6 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;)V' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='lambda$checkWithWarning$19(Lco/com/bancolombia/Utils$ArchitectureRule;Lco/com/bancolombia/Utils$ArchitectureRule$Location;)V' number='14'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='from(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule$Location;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='from(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule$Location;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='7'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='8'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='5'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='6'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveLocationIdx(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleDescription(Ljava/lang/String;)Ljava/lang/String;' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='getClassName()Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule$Location' method='&lt;init&gt;(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)V' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='5'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
@@ -1036,95 +1209,11 @@
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='with(Lco/com/bancolombia/Utils$ArchitectureRule$Location;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='with(Lco/com/bancolombia/Utils$ArchitectureRule$Location;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='3'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
 <block classname='co.com.bancolombia.Utils' method='resolveClassName(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='extractRuleId(Ljava/lang/String;)Ljava/lang/String;' number='2'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='11'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='12'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='6'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='9'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='5'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='10'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='15'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='13'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils' method='parseToRule(Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='14'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='from(Ljava/lang/String;Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='1'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.Utils$ArchitectureRule' method='from(Ljava/lang/String;Ljava/lang/String;)Lco/com/bancolombia/Utils$ArchitectureRule;' number='0'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='4'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='3'><tests>
-<test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
-</tests>
-</block>
-<block classname='co.com.bancolombia.ArchitectureTest' method='checkWithWarning(Ljava/lang/Runnable;)V' number='2'><tests>
 <test name='co.com.bancolombia.ArchitectureTest.[engine:junit-jupiter]/[class:co.com.bancolombia.ArchitectureTest]/[method:domainClassesShouldNotBeNamedWithTechSuffixes()]'/>
 </tests>
 </block>
@@ -1208,10 +1297,6 @@
 <test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='16'><tests>
-<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
-</tests>
-</block>
 <block classname='co.com.bancolombia.config.ObjectMapperConfig' method='objectMapper()Lorg/reactivecommons/utils/ObjectMapper;' number='1'><tests>
 <test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
 </tests>
@@ -1244,7 +1329,11 @@
 <test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='15'><tests>
+<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='11'><tests>
+<test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
+</tests>
+</block>
+<block classname='co.com.bancolombia.config.ObjectMapperConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='12'><tests>
 <test name='co.com.bancolombia.config.ObjectMapperConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.ObjectMapperConfigTest]/[method:testObjectMapperBean()]'/>
 </tests>
 </block>
@@ -1792,11 +1881,11 @@
 <test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='8'><tests>
+<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='6'><tests>
 <test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
 </tests>
 </block>
-<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='7'><tests>
+<block classname='co.com.bancolombia.config.UseCasesConfigTest$TestConfig$$SpringCGLIB$$FastClass$$1' method='invoke(ILjava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;' number='5'><tests>
 <test name='co.com.bancolombia.config.UseCasesConfigTest.[engine:junit-jupiter]/[class:co.com.bancolombia.config.UseCasesConfigTest]/[method:testUseCaseBeansExist()]'/>
 </tests>
 </block>

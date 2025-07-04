@@ -20,6 +20,8 @@ public class MotivoContactoEntity {
 	private int motivoCambio;
 	private String hash;
 
+
+
 	@DynamoDbPartitionKey
 	public String getTimestamp() {
 		return timestamp;

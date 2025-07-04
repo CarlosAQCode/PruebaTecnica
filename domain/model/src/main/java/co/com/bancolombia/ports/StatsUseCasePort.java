@@ -1,12 +1,10 @@
 package co.com.bancolombia.ports;
 
-import java.security.NoSuchAlgorithmException;
-
-import co.com.bancolombia.model.StatsRequest;
+import co.com.bancolombia.model.stat.Stat;
 import reactor.core.publisher.Mono;
 
 public interface StatsUseCasePort {
 	
-	Mono<Boolean> validateAndSaveStat(StatsRequest request);
+	Mono<Boolean> validateAndSaveStat(Stat request);
 
 }

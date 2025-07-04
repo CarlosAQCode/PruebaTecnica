@@ -1,15 +1,15 @@
-package co.com.bancolombia.model;
+package co.com.bancolombia.model.stat;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 
 @Data
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-public class MotivoContactoModel {
+public class Stat {
 
 	private String timestamp;
 	private int totalContactoClientes;
@@ -20,4 +20,5 @@ public class MotivoContactoModel {
 	private int motivoFelicitaciones;
 	private int motivoCambio;
 	private String hash;
+
 }
