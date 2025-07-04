@@ -5,24 +5,24 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.time.Instant;
 import java.time.format.DateTimeFormatter;
-
-import co.com.bancolombia.ports.StatsUseCasePort;
 import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Mono;
 import co.com.bancolombia.model.stat.Stat;
 import co.com.bancolombia.model.stat.gateways.StatRepository;
+import co.com.bancolombia.model.events.gateways.EventsGateway;
 
 @RequiredArgsConstructor
-public class StatsUseCase implements StatsUseCasePort {
+public class StatsUseCase {
 
 	private final StatRepository StatRepository;
+	private final EventsGateway rabbitEvent;
 
-	@Override
 	public Mono<Boolean> validateAndSaveStat(Stat request) {
 		try {
 			if (request == null) {
 				return Mono.just(Boolean.FALSE);
 			}
+
 			var chain = new StringBuffer();
 			chain.append(request.getTotalContactoClientes()).append(",").append(request.getMotivoReclamo()).append(",")
 					.append(request.getMotivoGarantia()).append(",").append(request.getMotivoDuda()).append(",")
@@ -35,12 +35,8 @@ public class StatsUseCase implements StatsUseCasePort {
 				return Mono.just(Boolean.FALSE);
 			}
 			request.setTimestamp(DateTimeFormatter.ISO_INSTANT.format(Instant.now()));
-			return StatRepository.saveEntity(request).flatMap(entity -> {
-				// TODO: enviar a la cola
-				return Mono.just(Boolean.TRUE);
-			}).onErrorResume(throwable -> {
-				return Mono.error(throwable);
-			});
+			return StatRepository.saveEntity(request)
+					.flatMap(entity -> rabbitEvent.emit(entity).thenReturn(Boolean.TRUE)).onErrorResume(Mono::error);
 
 		} catch (Exception e) {
 			return Mono.error(e);

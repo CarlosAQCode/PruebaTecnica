@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+
+  rabbitmq-init:
+    image: curlimages/curl:8.7.1
+    container_name: rabbitmq-init
+    depends_on:
+      - rabbitmq
+    entrypoint: >
+      sh -c "
+        echo '⏳ Esperando a RabbitMQ...' &&
+        sleep 15 &&
+        curl -i -u guest:guest -H 'content-type:application/json' -X PUT http://rabbitmq:15672/api/exchanges/%2f/domainEvents -d '{\"type\":\"topic\",\"durable\":true}' &&
+        curl -i -u guest:guest -H 'content-type:application/json' -X PUT http://rabbitmq:15672/api/queues/%2f/event.stats.validated -d '{\"durable\":true}' &&
+        curl -i -u guest:guest -H 'content-type:application/json' -X POST http://rabbitmq:15672/api/bindings/%2f/e/domainEvents/q/event.stats.validated -d '{\"routing_key\":\"event.stats.validated\"}' &&
+        echo '✅ Exchange, cola y binding creados en RabbitMQ'
+      "
+
+  dynamodb-local:
+    image: amazon/dynamodb-local
+    container_name: dynamodb-local
+    ports:
+      - "8000:8000"
+    command: "-jar DynamoDBLocal.jar -sharedDb"
+    environment:
+      - AWS_ACCESS_KEY_ID=fakeMyKeyId
+      - AWS_SECRET_ACCESS_KEY=fakeSecretAccessKey
+      - AWS_DEFAULT_REGION=us-west-2
+
+  dynamodb-init:
+    image: amazon/aws-cli
+    container_name: dynamodb-init
+    depends_on:
+      - dynamodb-local
+    entrypoint: >
+      sh -c "
+        echo '⏳ Esperando que DynamoDB esté listo...' &&
+        until aws dynamodb list-tables --endpoint-url http://dynamodb-local:8000 > /dev/null 2>&1; do
+          echo '🔄 DynamoDB aún no está disponible, esperando...';
+          sleep 2;
+        done;
+        echo '✅ DynamoDB disponible. Creando tabla...' &&
+        aws dynamodb create-table --table-name MotivosContacto --attribute-definitions AttributeName=timestamp,AttributeType=S --key-schema AttributeName=timestamp,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5 --region us-west-2 --endpoint-url http://dynamodb-local:8000 &&
+        echo '✅ Tabla creada correctamente.'
+      "
+    environment:
+      - AWS_ACCESS_KEY_ID=fakeMyKeyId
+      - AWS_SECRET_ACCESS_KEY=fakeSecretAccessKey
+      - AWS_DEFAULT_REGION=us-west-2

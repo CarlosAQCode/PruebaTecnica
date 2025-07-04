@@ -8,7 +8,7 @@ import org.springframework.web.reactive.function.server.ServerRequest;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
 import co.com.bancolombia.model.stat.Stat;
-import co.com.bancolombia.ports.StatsUseCasePort;
+
 import reactor.core.publisher.Mono;
 
 @Component
@@ -16,7 +16,7 @@ import reactor.core.publisher.Mono;
 @Slf4j
 public class Statshandler {
 
-	private final StatsUseCasePort StatsUseCase;
+	private final co.com.bancolombia.usecase.stats.StatsUseCase StatsUseCase;
 
 	public Mono<ServerResponse> Savestats(ServerRequest serverRequest) {
 		return serverRequest.bodyToMono(Stat.class).flatMap(stat -> StatsUseCase.validateAndSaveStat(stat))

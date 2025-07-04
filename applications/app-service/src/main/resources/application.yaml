@@ -1,11 +1,17 @@
 server:
   port: 8080
+
 spring:  
   application:
     name: "PruebaTecnica"
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   devtools:
     restart:
-      enabled: false	
+      enabled: false  
     add-properties: false
   h2:
     console:
@@ -13,6 +19,11 @@ spring:
       path: "/h2"
   profiles:
     include: null
+logging:
+  level:
+    org.reactivecommons: DEBUG
+    org.springframework.amqp: DEBUG
+
 management:
   endpoints:
     web:
@@ -22,11 +33,21 @@ management:
     health:
       probes:
         enabled: true
+
 cors:
   allowed-origins: "http://localhost:4200,http://localhost:8080"
+
 aws:
   region: us-west-2
   accessKey: fakeSecretAccessKey
   keyId: fakeMyKeyId
   dynamodb:
     endpoint: "http://localhost:8000/"
+
+reactive-messaging:
+  basePackages: co.com.bancolombia.events
+  rabbit:
+    exchange: tenchDomain
+    queue: event.stats.validated
+    domainEvents:
+      default: tenchDomain
